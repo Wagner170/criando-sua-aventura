@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Cenario-Passo0.jpg" alt="">
+            <p>Nas minhas férias de verão, enquanto eu apreciava a vegetação da natureza local vejo uma garrafa com aparentemente um papel dentro na correnteza de um pequeno rio, eu curioso rapidamente abro a garrafa e pego o papel, ao ler o que estava escrito descubro que se tratava de um mapa do tesouro, que estava localizado na ilha de Santa Lúcia no caribe.</p>
+            <button class="btn-proximo" data-proximo="1">Decide procurar alguma passagem de avião em São Paulo.</button>
+            <button class="btn-proximo" data-proximo="2">decide procurar por alguma embarcação turistica no Rio de Janeiro.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Eu chego em São Paulo e descubro que não tem nenhum voou para Santa Lúcia.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para o Rio de janeiro</button>
+            <button class="btn-proximo" data-proximo="4">Ir para Brasilia</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Eu chego no Rio de Janeiro e descubro que não tem nenhuma embarcação turistica para Santa Lúcia.</p>
+            <button class="btn-proximo" data-proximo="5">Ir para Goias</button>
+            <button class="btn-proximo" data-proximo="6">Ir para Minas Gerais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Chegando no Rio de Janeiro eu descubro que também não há nenhum vouo para Santa Lúcia, porém me dizeram que em Salvador possa ter.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para Bahia</button>
+            <button class="btn-proximo" data-proximo="8">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Chegando em Brasilia boatos me diziam que talvez eu possa encontrar algum vouo em Bahia</p>
+            <button class="btn-proximo" data-proximo="9">Ir para Bahia</button>
+            <button class="btn-proximo" data-proximo="10">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Chegando em Goias eu descubro que também não há nenhuma embarcação para Santa Lúcia, porém me dizeram que em Recife eu posso ter.</p>
+            <button class="btn-proximo" data-proximo="11">Ir para Pernambuco</button>
+            <button class="btn-proximo" data-proximo="12">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Chegando em Minas Gerais me dizeram que talvez eu possa encontrar o que eu procuro em algum estado da região nordeste do país.</p>
+            <button class="btn-proximo" data-proximo="13">Ir para Pernambuco</button>
+            <button class="btn-proximo" data-proximo="14">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Chegando em Salvador - Bahia descubro que não tinha nenhuma viajem para Santa Lúcia, e sim para Sao Vicente e Granadinas que fica ao lado de Santa Lúcia, mesmo assim eu decido ir e resolver quando chegar lá. Chegando no arquipelago, eu tinha duas escolhas...</p>
+            <button class="btn-proximo" data-proximo="15">Decide alugar um barco e seguir viagem</button>
+            <button class="btn-proximo" data-proximo="16">Esperar alguns dias até que concertem uma embarcação que acabou quebrando em uma tempestade</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Em Recife - Pernambuco consigo finalmente pegar uma embarcação turistica. Porém no meio da viajante por conta de uma forte tempestade tivemos que parar em um arquipelago perto chamado Sao Vicente e Granadinas, o Capitão do navio nós avisou que demorara alguns dias até que eles consigam prosseguir a viagem.</p>
+            <button class="btn-proximo" data-proximo="17">decide alugar um barco e seguir viagem</button>
+            <button class="btn-proximo" data-proximo="18">decide esperar até concertarem o navio</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Após muito tempo eu finalmente chego em Santa Lúcia, e consigo encontrar o tesouro perdido de Henry Every, o Rei dos PIratas.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
